@@ -1,0 +1,41 @@
+
+/* Réaliser sur écran 1920x1080 */
+
+
+/* Police d'écriture */
+
+* {
+    font-family: 'robotoregular';
+}
+
+@font-face {
+    font-family: 'shrikhandregular';
+    src: url('fonts/shrikhand-regular-webfont.woff2') format('woff2'),
+         url('fonts/shrikhand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.textGras {
+    font-weight: bold;
+}
+
+img {
+    width:500px;
+}
+
+
