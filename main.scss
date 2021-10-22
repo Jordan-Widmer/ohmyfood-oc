@@ -26,16 +26,106 @@
 
 }
 
+// Corps de la page
+
+body {
+    margin: unset;
+}
+
 a {
     text-decoration: none;
 }
+
+// Couleur par Défaut
+
+.couleurViolet {
+    color: #9356DC;
+}
+
+.couleurRose {
+    color: #FF79DA;
+}
+
+.couleurMenthe {
+    color: #99E2D0;
+}
+
+.couleurGris {
+    color: #EAEAEA;
+}
+
+.couleurGrisClair {
+    color: #F6F6F6;
+}
+
+// Police de caractères
 
 .textGras {
     font-weight: bold;
 }
 
-img {
-    width:500px;
+@media screen and (max-width:414px) {
+        // ************************ HEADER ************************
+.dispositionLogo {
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    .logoEntreprise{
+        width: 50%;
+    }
 }
+
+// ************************ MAIN ************************
+
+// ************************ PREMIÈRE SECTION ************************
+.caseMenuPrincipale {
+    padding: 0 0px 60px 0px;
+}
+.couleurGrisArrierePlan {
+    background-color: #F6F6F6;
+    .localisation {
+        box-shadow: 0px 2px 1px 0px #868887 inset;
+        display: flex;
+        width: 100%;
+        height: 60px;
+        background-color: #EAEAEA;
+        .fa-map-marker-alt {
+            margin-right: 20px;
+        }
+        .textLocation {
+            font-size: 20px;
+        }
+    }
+    .contenueCentrer {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        .dispositionTitrePrincipale {
+            margin-top: 40px;
+        }
+
+        .sousTitrePrincipale {
+            font-size: 20px;
+            opacity: 0.6;
+            margin-bottom: 40px;
+        }
+
+        .lienExplorationRestaurants {
+            color: white;
+            background: linear-gradient( #FF79DA, #9356DC 120%);            
+            padding: 15px;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-radius: 30px 30px 30px 30px;
+            box-shadow: 0px 1px 3px 0 rgba(0,0,0,0.4);
+        }
+    }
+}
+}
+
+
+
+
 
 
