@@ -5,86 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OhMyFood</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 <body>
     <div>
-        <header>
-            <img src="../images/logo/ohmyfood.png" alt="logo de l'entreprise, OhMyFood">
+        <header class="dispositionLogo contenueCentrer">
+            <div class="flexDisplayRestaurants contenueCentrer"><a class="positionFleche" href="../index.html"><i class="fas fa-arrow-left"></i></a><img class="dispositionFleche logoEntreprise" src="../images/logo/ohmyfood.png" alt="logo de l'entreprise, OhMyFood"></div>
         </header>
         <main>
-            <img src="../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La palette du goût">
-            <section>
+            <img class="imageRestaurantPages" src="../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="A la française">
+            <section class="couleurGrisArrierePlan menu">
                 <div>
-                    <h2>La palette du gôut</h2>
+                    <div class="hautMenu"><div><h1 class="TitreMenu">La palette du goût</h1></div><i class="contenueCentrer coeurMenu far fa-heart"></i></div>
                     <div>
-                        <h3>ENTREES</h3>
-                        <div>
-                            <h3>Fricassée d'escargot</h3>
-                            <p>Au pimet d'espelette <strong>25€</strong></p>
+                        <h3 class="typePlat">ENTRÉES</h3>
+                        <div class="platDisponible">
+                            <h3 class="titrePlat">Fricassée d'escargot</h3>
+                            <p class="sousTitrePlat">Au piment d'espelette <strong class="prixPlat">25€</strong></p>
                         </div>
-                        <div>
-                            <h3>Foie gras de canard mi-cuit</h3>
-                            <p>Et ses copeaux de truffe noire <strong>35€</strong></p>
+                        <div class="platDisponible">
+                            <h3 class="titrePlat">Foie gras de canard mi-cuit</h3>
+                            <p class="sousTitrePlat">Et ses copeaux de truffe noire <strong class="prixPlat">35€</strong></p>
                         </div>
-                        <div>
-                            <h3>Oeuf au plat</h3>
-                            <p>Assaissonné à la truffe sur le lit de caviar <strong>20€</strong></p>
+                        <div class="platDisponible">
+                            <h3 class="titrePlat">Oeuf au plat</h3>
+                            <p class="sousTitrePlat">Assaisonnée à la truffe sur de caviar <strong class="prixPlat">20€</strong></p>
                         </div>
                     </div>
                     <div>
-                        <h3>PLATS</h3>
-                        <div>
-                            <h3>Filet de boeuf aux herbes</h3>
-                            <p>Accompagné de sa ribambelle de légumes <strong>40€</strong></p>
+                        <h3 class="typePlat margeTypePlat">PLATS</h3>
+                        <div class="platDisponible">
+                            <h3 class="titrePlat">CFilet de boeuf au herbes</h3>
+                            <p class="sousTitrePlat">Accompégné de sa ribambelle de légumes <strong class="prixPlat">40€</strong></p>
                         </div>
-                        <div>
-                            <h3>Parmentier de queue de boeuf</h3>
-                            <p>A la truffe noire sur sa purée de panais <strong>35€</strong></p>
+                        <div class="platDisponible">
+                            <h3 class="titrePlat">Parmentier de queue de boeuf</h3>
+                            <p class="sousTitrePlat">À la truffe noire sur sa purée de panais <strong class="prixPlat">35€</strong></p>
                         </div>
-                        <div>
-                            <h3>Filet de Turbot</h3>
-                            <p>Aux agrumes <strong>44€</strong></p>
+                        <div class="platDisponible">
+                            <h3 class="titrePlat">Filet de turbot</h3>
+                            <p class="sousTitrePlat">Aux agrumes <strong class="prixPlat">44€</strong></p>
                         </div>
                     </div>
                     <div>
-                        <h3>DESSERTS</h3>
-                        <div>
-                            <h3>Paris-Brest</h3>
-                            <p>Revisité <strong>18€</strong></p>
+                        <h3 class="typePlat margeTypePlat">DESSERTS</h3>
+                        <div class="platDisponible">
+                            <h3 class="titrePlat">Paris-Brest</h3>
+                            <p class="sousTitrePlat">Revisité <strong class="prixPlat">18€</strong></p>
                         </div>
-                        <div>
-                            <h3>Macaron au chocolat d'exception</h3>
-                            <p>Et glace à la vanille de Madagascar <strong>22€</strong></p>
+                        <div class="platDisponible">
+                            <h3 class="titrePlat">Macaron au chocolat d'exception</h3>
+                            <p class="sousTitrePlat">Et glace à la vanille de Madagascar <strong class="prixPlat">22€</strong></p>
                         </div>
-                        <div>
-                            <h3>Mousse au chocolat</h3>
-                            <p>Au piment d'espelette et à la truffe noire <strong>23€</strong></p>
+                        <div class="platDisponible">
+                            <h3 class="titrePlat">Mousse au chocolat</h3>
+                            <p class="sousTitrePlat">Au piment d'Espelette et à la truffe noire <strong class="prixPlat">23€</strong></p>
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="margeTypeCommande contenueCentrer">
                     <a href="#">
-                        <span>Commander</span>
+                        <span class="lienCommander">Commander</span>
                     </a>
                 </div>
             </section>
         </main>
-        <footer>
-            <h3>ohmyfood</h3>
-            <div>
-                <div>
-                    <i class="fas fa-utensils"></i><a href="#">Proposer un restaurant</a>
+        <footer class="couleurNoirGriser dispositionFooter">
+            <h1 class="ohmyfoodwhite couleurBlanche">ohmyfood</h1>
+            <div class="dispositionTextFooter">
+                <div class="textfooter"> 
+                    <i class="fas fa-utensils couleurBlanche"></i><a class="couleurBlanche textGras" href="#">Proposer un restaurant</a>
                 </div>
-                <div>
-                    <i class="fas fa-hands-helping"></i><a href="#">Devenir partenaire</a>
+                <div class="textfooter">
+                    <i class="fas fa-hands-helping couleurBlanche"></i><a class="couleurBlanche textGras" href="#">Devenir partenaire</a>
                 </div>
-                <div>
-                    <a href="#">Mentions légales</a>
+                <div class="textfooter">
+                    <a class="couleurBlanche" href="#">Mentions légales</a>
                 </div>
-                <div>
-                    <a href="#">Contact</a>
+                <div class="textfooter">
+                    <a class="couleurBlanche" href="#">Contact</a>
                 </div>
             </div>
         </footer>

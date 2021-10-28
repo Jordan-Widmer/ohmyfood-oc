@@ -1,0 +1,103 @@
+.imageRestaurantPages {
+    height: 338.66px;
+    width: 100%;
+    object-fit: cover;
+}
+.flexDisplayRestaurants {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.absolueFlechePosition {
+    position: relative;
+}
+.positionFleche {
+    position: absolute;
+    left: 15px;
+    font-size: 30px;
+    justify-content: center;
+}
+.menu {
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 18px;
+    border-radius: 40px 40px 0 0;
+    margin-top: -65px;
+    position: relative;
+    .hautMenu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .TitreMenu {
+            font-size: 27px;
+            font-family: 'shrikhandregular';
+        }
+        .coeurMenu {
+            font-size: 30px;
+            padding-right: 0px;
+            margin-bottom: 20px;
+        }
+        .coeurMenu:hover {
+            transition: 0.2s;
+            background:linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            font-weight: bold;
+        }
+    }
+}
+.margeTypePlat {
+    margin-top: 40px;
+}
+.margeTypeCommande {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.typePlat {
+    margin-left: 10px;
+    font-size: 15px;
+    opacity: 0.7;
+    padding-bottom: 6px;
+    width: 38px;
+    border-bottom: solid 3px #99E2D0;
+}
+.platDisponible:hover {
+    box-shadow: 0px 1px 8px 0 rgba(0, 0, 0, 0.4);
+}
+.platDisponible {
+    transition: 0.3s;
+    cursor: pointer;
+    margin-bottom: 15px;
+    column-gap: 30px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 15px;
+    box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.4);
+    .titrePlat {
+        margin: 3px;
+    }
+    .sousTitrePlat {
+        margin: unset;
+        display: flex;
+        justify-content: space-between;
+        .prixPlat {
+            padding-right: 15px;
+            font-size: 15px;
+        }
+    }
+}
+.lienCommander:hover {
+    box-shadow: 0px 1px 16px 0 rgba(0,0,0,0.4);
+}
+.lienCommander {
+    color: white;
+    font-weight: bold;
+    background: linear-gradient( #FF79DA, #9356DC 120%);            
+    padding: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0px 1px 6px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+}

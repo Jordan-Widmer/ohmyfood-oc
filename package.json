@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./main.scss:./style.css"
+    "sass":"sass --watch ./main.scss:./style.css"
   },
   "repository": {
     "type": "git",
@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/Korootak/WIDMERJordan_3_20102021/issues"
   },
-  "homepage": "https://github.com/Korootak/WIDMERJordan_3_20102021#readme",
-  "dependencies": {
-    "sass": "^1.43.2"
-  }
+  "homepage": "https://github.com/Korootak/WIDMERJordan_3_20102021#readme"
 }
