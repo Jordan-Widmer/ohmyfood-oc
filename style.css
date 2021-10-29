@@ -139,6 +139,10 @@
   font-size: 18px;
   opacity: 0.8;
 }
+.composition .aidePositionnement {
+  position: absolute;
+  right: 40px;
+}
 
 .imageRestaurantPages {
   height: 338.66px;
@@ -152,12 +156,7 @@
   text-align: center;
   position: relative;
 }
-
-.absolueFlechePosition {
-  position: relative;
-}
-
-.positionFleche {
+.flexDisplayRestaurants .positionFleche {
   position: absolute;
   left: 15px;
   font-size: 30px;
@@ -172,19 +171,23 @@
   margin-top: -65px;
   position: relative;
 }
+.menu .flexTesting {
+  display: flex;
+}
 .menu .hautMenu {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-right: 20px;
 }
 .menu .hautMenu .TitreMenu {
   font-size: 27px;
   font-family: "shrikhandregular";
 }
 .menu .hautMenu .coeurMenu {
-  font-size: 30px;
-  padding-right: 0px;
-  margin-bottom: 20px;
+  font-size: 25px;
+  padding: unset;
+  margin: unset;
 }
 .menu .hautMenu .coeurMenu:hover {
   transition: 0.2s;
@@ -343,8 +346,6 @@ a {
   font-size: 28px;
   padding-top: 20px;
   justify-content: end;
-  position: absolute;
-  right: 40px;
   cursor: pointer;
 }
 
