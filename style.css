@@ -231,14 +231,16 @@
 }
 .platDisponible .titrePlat {
   margin: 3px;
+  font-size: 17px;
 }
 .platDisponible .sousTitrePlat {
+  font-size: 14px;
   margin: unset;
   display: flex;
   justify-content: space-between;
 }
 .platDisponible .sousTitrePlat .prixPlat {
-  padding-right: 15px;
+  padding-right: 10px;
   font-size: 15px;
 }
 
