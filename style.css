@@ -33,23 +33,25 @@
   margin-bottom: 40px;
 }
 .couleurGrisArrierePlan .lienExplorationRestaurants {
+  display: block;
   color: white;
+  width: max-content;
   background: linear-gradient(#FF79DA, #9356DC 120%);
   padding: 15px;
-  padding-left: 25px;
-  padding-right: 25px;
+  margin: auto;
   border-radius: 30px 30px 30px 30px;
   box-shadow: 0px 1px 6px 0 rgba(0, 0, 0, 0.4);
-  transition: 0.3s;
-}
-.couleurGrisArrierePlan .lienExplorationRestaurants:hover {
-  box-shadow: 0px 1px 12px 0 rgba(0, 0, 0, 0.4);
 }
 
 .titredeSection {
   font-size: 25px;
   margin-bottom: 25px;
   padding-left: 18px;
+}
+
+.iconCouleur:hover :nth-child(2) {
+  color: #9356DC;
+  transition: 0.7s;
 }
 
 .caseFonctionnement:hover {
@@ -96,7 +98,7 @@
   margin: 20px;
 }
 .margeCaseSectionTrois .carteRestaurant:hover {
-  box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.4);
 }
 .margeCaseSectionTrois .carteRestaurant {
   transition: 0.3s;
@@ -111,7 +113,7 @@
 }
 
 .ticket {
-  background-color: #a9e0d1;
+  background-color: #99E2D0;
   color: #095228;
   padding: 0.4rem 1rem;
   border-radius: 0.2rem;
@@ -205,6 +207,19 @@
   padding-top: 50px;
   padding-bottom: 100px;
 }
+.margeTypeCommande .lienCommander {
+  display: block;
+  color: white;
+  width: max-content;
+  background: linear-gradient(#FF79DA, #9356DC 120%);
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: auto;
+  border-radius: 30px 30px 30px 30px;
+  box-shadow: 0px 1px 6px 0 rgba(0, 0, 0, 0.4);
+  font-weight: bold;
+}
 
 .typePlat {
   margin-left: 10px;
@@ -220,7 +235,10 @@
 }
 
 .platDisponible {
+  text-overflow: ellipsis;
+  overflow: hidden;
   transition: 0.3s;
+  position: relative;
   cursor: pointer;
   margin-bottom: 15px;
   column-gap: 30px;
@@ -236,28 +254,14 @@
 .platDisponible .sousTitrePlat {
   font-size: 14px;
   margin: unset;
+  text-overflow: ellipsis;
+  overflow: hidden;
   display: flex;
   justify-content: space-between;
 }
 .platDisponible .sousTitrePlat .prixPlat {
   padding-right: 10px;
   font-size: 15px;
-}
-
-.lienCommander:hover {
-  box-shadow: 0px 1px 16px 0 rgba(0, 0, 0, 0.4);
-}
-
-.lienCommander {
-  color: white;
-  font-weight: bold;
-  background: linear-gradient(#FF79DA, #9356DC 120%);
-  padding: 15px;
-  padding-left: 45px;
-  padding-right: 45px;
-  border-radius: 30px 30px 30px 30px;
-  box-shadow: 0px 1px 6px 0 rgba(0, 0, 0, 0.4);
-  transition: 0.3s;
 }
 
 .couleurNoirGriser {
@@ -369,6 +373,133 @@ a {
 
 .fa-utensils {
   padding-right: 16px;
+}
+
+.fa-mobile-alt:hover {
+  color: green;
+}
+
+.transformation {
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 350ms;
+}
+
+.transformation:hover {
+  transform: scale(1.1);
+}
+
+.transformationCarteRestaurants {
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 350ms;
+}
+
+.transformationCarteRestaurants:hover {
+  transform: scale(1.01);
+}
+
+.arrierePlan {
+  background-color: white;
+  z-index: 1;
+  animation: hide 0.5s 2s linear forwards;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+}
+.arrierePlan .loader {
+  background: white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader div {
+  background: #fff;
+  width: 16px;
+  height: 32px;
+  margin-left: 10px;
+  animation: loader 1.2s infinite;
+}
+
+.loader div:nth-child(1) {
+  background: #9356DC;
+  animation-delay: -0.4s;
+}
+
+.loader div:nth-child(2) {
+  background: #FF79DA;
+  animation-delay: -0.2s;
+}
+
+.loader div:nth-child(3) {
+  background: #99E2D0;
+  animation-delay: 0s;
+}
+
+@keyframes loader {
+  50% {
+    height: 64px;
+  }
+}
+@keyframes hide {
+  0% {
+    opacity: 1;
+    display: block;
+  }
+  99% {
+    opacity: 0;
+    display: block;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+    visibility: hidden;
+  }
+}
+.chargementInterface {
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.ticketOk:hover {
+  opacity: 1;
+  transform: translate(-50px);
+}
+
+.ticketOk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #99E2D0;
+  width: 45px;
+  height: 45px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: absolute;
+  padding: 10px;
+  right: -50px;
+  top: 0;
+  opacity: 0;
+  transition: transform 330ms ease-in-out;
+}
+.ticketOk .fa-check-circle {
+  font-size: 35px;
+  color: #fff;
+  transition: transform 500ms ease-in-out;
 }
 
 /*# sourceMappingURL=style.css.map */
