@@ -1,6 +1,23 @@
 @media only screen and (min-width : 1080px) {
-    .fonct_strange {
+    .fonct {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        justify-content: center;
     }  
+    .caseFonctionnement {
+        width: 35%;
+    }
+    .caseFonctionnement .numeroCaseFonctionnement {
+        left: 593px;
+    }
+    .titredeSection {
+        text-align: center;
+    }
+    .margeCaseSectionTrois {
+        display: flex;
+        justify-content: space-between;
+    }
+    .carteRestaurant {
+        margin: 15px;
+    }
 }
