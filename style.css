@@ -23,6 +23,9 @@
 }
 .couleurGrisArrierePlan .localisation .textLocation {
   font-size: 20px;
+  border: unset;
+  background-color: #EAEAEA;
+  width: 150px;
 }
 .couleurGrisArrierePlan .dispositionTitrePrincipale {
   margin-top: 40px;
@@ -146,6 +149,10 @@
   right: 40px;
 }
 
+input, select, textarea {
+  color: black;
+}
+
 .imageRestaurantPages {
   height: 338.66px;
   width: 100%;
@@ -254,8 +261,6 @@
 .platDisponible .sousTitrePlat {
   font-size: 14px;
   margin: unset;
-  text-overflow: ellipsis;
-  overflow: hidden;
   display: flex;
   justify-content: space-between;
 }
