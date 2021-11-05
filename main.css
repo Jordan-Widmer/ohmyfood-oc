@@ -766,7 +766,7 @@ a {
 .article_strange:hover > .confirmation {
   -webkit-transform: translateX(0);
           transform: translateX(0);
-  right: -240px;
+  right: -150px;
 }
 
 .article_strange:hover > .confirmation > div.ajout i {
@@ -805,7 +805,7 @@ a {
 }
 
 .article_strange .confirmation div.ajout {
-  background-color: green;
+  background-color: #99E2D0;
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
