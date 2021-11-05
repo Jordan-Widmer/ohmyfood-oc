@@ -1,0 +1,931 @@
+header h1 {
+  font-family: 'shrikhand';
+}
+
+.dispositionLogo {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.dispositionLogo .logoEntreprise {
+  width: 50%;
+}
+
+.caseMenuPrincipale {
+  padding: 0 0px 60px 0px;
+  margin-bottom: 45px;
+}
+
+.couleurGrisArrierePlan {
+  background-color: #F6F6F6;
+}
+
+.couleurGrisArrierePlan .localisation {
+  -webkit-box-shadow: 0px 2px 3px 0px #868887 inset;
+          box-shadow: 0px 2px 3px 0px #868887 inset;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-color: #EAEAEA;
+}
+
+.couleurGrisArrierePlan .localisation .textLocation {
+  font-size: 20px;
+  border: unset;
+  background-color: #EAEAEA;
+  width: 150px;
+}
+
+.couleurGrisArrierePlan .dispositionTitrePrincipale {
+  margin-top: 40px;
+}
+
+.couleurGrisArrierePlan .sousTitrePrincipale {
+  font-size: 20px;
+  opacity: 0.6;
+  margin-bottom: 40px;
+}
+
+.couleurGrisArrierePlan .lienExplorationRestaurants {
+  display: block;
+  color: white;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), color-stop(120%, #9356DC));
+  background: linear-gradient(#FF79DA, #9356DC 120%);
+  padding: 15px;
+  margin: auto;
+  border-radius: 30px 30px 30px 30px;
+  -webkit-box-shadow: 0px 1px 6px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 1px 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+.titredeSection {
+  font-size: 25px;
+  margin-bottom: 25px;
+  padding-left: 18px;
+}
+
+.iconCouleur:hover :nth-child(2) {
+  color: #9356DC;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.caseFonctionnement:hover {
+  background-color: #f3ebff;
+  -webkit-box-shadow: 0px 1px 12px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 1px 12px 0 rgba(0, 0, 0, 0.4);
+}
+
+.caseFonctionnement {
+  width: 90%;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 1px 6px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 1px 6px 0 rgba(0, 0, 0, 0.4);
+  height: 80px;
+  background-color: #F6F6F6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  margin-bottom: 25px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.caseFonctionnement .textCaseFonctionnement {
+  width: 70%;
+  font-size: 16px;
+}
+
+.caseFonctionnement .numeroCaseFonctionnement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: #9356DC;
+  color: white;
+  position: absolute;
+  left: 7px;
+}
+
+.dispositionSection {
+  margin-top: 70px;
+  padding: 0 0px 30px 0px;
+}
+
+.dispositionSection .dispositionTitreSectionTrois {
+  padding-top: 45px;
+}
+
+.margeCaseSectionTrois {
+  margin: 20px;
+}
+
+.margeCaseSectionTrois .carteRestaurant:hover {
+  -webkit-box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.4);
+}
+
+.margeCaseSectionTrois .carteRestaurant {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-bottom: 30px;
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 1px 8px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 1px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.margeCaseSectionTrois .carteRestaurant .relative {
+  position: relative;
+}
+
+.ticket {
+  background-color: #99E2D0;
+  color: #095228;
+  padding: 0.4rem 1rem;
+  border-radius: 0.2rem;
+  position: absolute;
+  top: 1rem;
+  right: 0.8rem;
+}
+
+.dispositionImages {
+  width: 100%;
+  height: 190px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.composition {
+  height: 73px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.composition .dispositionText {
+  margin: 5px 10px 0px 15px;
+  text-align: unset;
+}
+
+.composition .textTransparent {
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.composition .aidePositionnement {
+  position: absolute;
+  right: 40px;
+}
+
+input, select, textarea {
+  color: black;
+}
+
+.imageRestaurantPages {
+  height: 338.66px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.flexDisplayRestaurants {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.flexDisplayRestaurants .positionFleche {
+  position: absolute;
+  left: 15px;
+  font-size: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menu {
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-left: 18px;
+  border-radius: 40px 40px 0 0;
+  margin-top: -65px;
+  position: relative;
+}
+
+.menu .flexTesting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu .hautMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 20px;
+}
+
+.menu .hautMenu .TitreMenu {
+  font-size: 27px;
+  font-family: 'shrikhand';
+}
+
+.menu .hautMenu .coeurMenu {
+  font-size: 25px;
+  padding: unset;
+  margin: unset;
+}
+
+.menu .hautMenu .coeurMenu:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  background: -webkit-gradient(linear, right top, left top, from(#9356dc), color-stop(#b35cdc), color-stop(#cf64dc), color-stop(#e86edb), to(#ff79da));
+  background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+}
+
+.margeTypePlat {
+  margin-top: 40px;
+}
+
+.margeTypeCommande {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.margeTypeCommande .lienCommander {
+  display: block;
+  color: white;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), color-stop(120%, #9356DC));
+  background: linear-gradient(#FF79DA, #9356DC 120%);
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: auto;
+  border-radius: 30px 30px 30px 30px;
+  -webkit-box-shadow: 0px 1px 6px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 1px 6px 0 rgba(0, 0, 0, 0.4);
+  font-weight: bold;
+}
+
+.typePlat {
+  margin-left: 10px;
+  font-size: 15px;
+  opacity: 0.7;
+  padding-bottom: 6px;
+  width: 50px;
+  border-bottom: solid 3px #99E2D0;
+}
+
+.platDisponible:hover {
+  -webkit-box-shadow: 0px 1px 8px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 1px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.platDisponible {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 15px;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+  background-color: white;
+  padding: 8px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.4);
+}
+
+.platDisponible .titrePlat {
+  margin: 3px;
+  font-size: 17px;
+}
+
+.platDisponible .sousTitrePlat {
+  font-size: 14px;
+  margin: unset;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.platDisponible .sousTitrePlat .prixPlat {
+  padding-right: 10px;
+  font-size: 15px;
+}
+
+.compositionMenu {
+  margin: 0;
+  padding: 0;
+}
+
+footer h1 {
+  font-family: 'shrikhand';
+}
+
+.couleurNoirGriser {
+  background-color: #353535;
+}
+
+.dispositionFooter {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+.ohmyfoodwhite {
+  margin: unset;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+.dispositionTextFooter {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dispositionTextFooter .textfooter {
+  margin: 4px;
+}
+
+* {
+  font-family: 'robotoregular';
+}
+
+@font-face {
+  font-family: 'robotoregular';
+  src: url("fonts/roboto-regular-webfont.woff2") format("woff2"), url("fonts/roboto-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: unset;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.couleurViolet {
+  color: #9356DC;
+}
+
+.couleurRose {
+  color: #FF79DA;
+}
+
+.couleurBlanche {
+  color: white;
+}
+
+.couleurTertiaire {
+  color: #99E2D0;
+}
+
+.contenueCentrer {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.textGras {
+  font-weight: bold;
+}
+
+.fa-map-marker-alt {
+  margin-right: 20px;
+}
+
+.positionnementFasFonctionnement {
+  font-size: 24px;
+  opacity: 0.5;
+}
+
+.fa-heart {
+  font-size: 28px;
+  padding-top: 20px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  cursor: pointer;
+}
+
+.fa-heart:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  background: -webkit-gradient(linear, right top, left top, from(#9356dc), color-stop(#b35cdc), color-stop(#cf64dc), color-stop(#e86edb), to(#ff79da));
+  background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+}
+
+.fa-utensils {
+  padding-right: 6px;
+}
+
+.fa-hands-helping {
+  padding-right: 10px;
+}
+
+.fa-utensils {
+  padding-right: 16px;
+}
+
+.fa-mobile-alt:hover {
+  color: green;
+}
+
+.transformation {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 350ms;
+          transition-duration: 350ms;
+}
+
+.transformation:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.transformationCarteRestaurants {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 350ms;
+          transition-duration: 350ms;
+}
+
+.transformationCarteRestaurants:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.arrierePlan {
+  background-color: white;
+  z-index: 1;
+  -webkit-animation: hide 0.5s 2s linear forwards;
+          animation: hide 0.5s 2s linear forwards;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+}
+
+.arrierePlan .loader {
+  background: white;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.loader div {
+  background: #fff;
+  width: 16px;
+  height: 32px;
+  margin-left: 10px;
+  -webkit-animation: loader 1.2s infinite;
+          animation: loader 1.2s infinite;
+}
+
+.loader div:nth-child(1) {
+  background: #9356DC;
+  -webkit-animation-delay: -0.40s;
+          animation-delay: -0.40s;
+}
+
+.loader div:nth-child(2) {
+  background: #FF79DA;
+  -webkit-animation-delay: -0.20s;
+          animation-delay: -0.20s;
+}
+
+.loader div:nth-child(3) {
+  background: #99E2D0;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+@-webkit-keyframes loader {
+  50% {
+    height: 64px;
+  }
+}
+
+@keyframes loader {
+  50% {
+    height: 64px;
+  }
+}
+
+@-webkit-keyframes hide {
+  0% {
+    opacity: 1;
+    display: block;
+  }
+  99% {
+    opacity: 0;
+    display: block;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@keyframes hide {
+  0% {
+    opacity: 1;
+    display: block;
+  }
+  99% {
+    opacity: 0;
+    display: block;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+    visibility: hidden;
+  }
+}
+
+.chargementInterface {
+  -webkit-animation: fadeIn 3s;
+          animation: fadeIn 3s;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+.ticketOk:hover {
+  opacity: 1;
+  -webkit-transform: translate(-50px);
+          transform: translate(-50px);
+}
+
+.ticketOk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #99E2D0;
+  width: 45px;
+  height: 45px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: absolute;
+  padding: 10px;
+  right: -50px;
+  top: 0;
+  opacity: 0;
+  -webkit-transition: -webkit-transform 330ms ease-in-out;
+  transition: -webkit-transform 330ms ease-in-out;
+  transition: transform 330ms ease-in-out;
+  transition: transform 330ms ease-in-out, -webkit-transform 330ms ease-in-out;
+}
+
+.ticketOk .fa-check-circle {
+  font-size: 35px;
+  color: #fff;
+  -webkit-transition: -webkit-transform 500ms ease-in-out;
+  transition: -webkit-transform 500ms ease-in-out;
+  transition: transform 500ms ease-in-out;
+  transition: transform 500ms ease-in-out, -webkit-transform 500ms ease-in-out;
+}
+
+.menu__card {
+  -webkit-animation-name: fade-in-top;
+          animation-name: fade-in-top;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
+}
+
+.delay1 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.menu__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu__titre {
+  height: 56px;
+  text-transform: uppercase;
+  width: 15%;
+  -webkit-box-shadow: 0px 8px 0px 0px #99e2d0;
+          box-shadow: 0px 8px 0px 0px #99e2d0;
+  margin-bottom: 5%;
+}
+
+.menu__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 900px;
+  margin: 2%;
+}
+
+.ajout {
+  width: 35%;
+}
+
+.article_strange {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-shadow: 0px 1px 6px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 1px 6px 0 rgba(0, 0, 0, 0.4);
+  background-color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 5%;
+}
+
+.article_strange:hover > .menudesc {
+  margin-right: 100px;
+  -webkit-animation: texte 0.5s;
+          animation: texte 0.5s;
+}
+
+.article_strange:hover > .confirmation {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  right: -240px;
+}
+
+.article_strange:hover > .confirmation > div.ajout i {
+  -webkit-transform: rotate(1turn);
+          transform: rotate(1turn);
+}
+
+.article_strange .menudesc {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: texter 0.5s;
+          animation: texter 0.5s;
+}
+
+.article_strange .menudesc h3, .article_strange .menudesc h4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.article_strange .confirmation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  position: absolute;
+  width: 60%;
+  right: -380px;
+  -webkit-transform: translateX(52px);
+          transform: translateX(52px);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.article_strange .confirmation div.ajout {
+  background-color: green;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  z-index: -1;
+}
+
+.article_strange .menudesc, .article_strange .push__left, .article_strange div.ajout i {
+  -webkit-transition: -webkit-transform 500ms ease-in-out;
+  transition: -webkit-transform 500ms ease-in-out;
+  transition: transform 500ms ease-in-out;
+  transition: transform 500ms ease-in-out, -webkit-transform 500ms ease-in-out;
+}
+
+@-webkit-keyframes texte {
+  0% {
+    margin-right: 52px;
+  }
+  100% {
+    margin-right: 100px;
+  }
+}
+
+@keyframes texte {
+  0% {
+    margin-right: 52px;
+  }
+  100% {
+    margin-right: 100px;
+  }
+}
+
+@-webkit-keyframes texter {
+  0% {
+    margin-right: 100px;
+  }
+  100% {
+    margin-right: 52px;
+  }
+}
+
+@keyframes texter {
+  0% {
+    margin-right: 100px;
+  }
+  100% {
+    margin-right: 52px;
+  }
+}
+
+.prix {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-right: 5%;
+}
+
+.menu__button {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menu__button a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 1% 2% 1% 2%;
+  border-radius: 60px;
+  font-size: 1rem;
+  width: 15rem;
+  color: #fff;
+  background: linear-gradient(356deg, #9356dc 5%, #ff79da 100%);
+  -webkit-box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.1);
+}
+
+.menu__button a:hover {
+  -webkit-box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.3);
+}
+
+.menudesc h3 {
+  font-size: 20px;
+}
+
+.menudesc p {
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 1080px) {
+  .fonct_strange {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+/*# sourceMappingURL=main.css.map */

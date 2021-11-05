@@ -32,7 +32,7 @@
         padding-right: 20px;
         .TitreMenu {
             font-size: 27px;
-            font-family: 'shrikhandregular';
+            font-family: 'shrikhand';
         }
         .coeurMenu {
             font-size: 25px;
@@ -73,7 +73,7 @@
     font-size: 15px;
     opacity: 0.7;
     padding-bottom: 6px;
-    width: 38px;
+    width: 50px;
     border-bottom: solid 3px #99E2D0;
 }
 .platDisponible:hover {
@@ -105,5 +105,9 @@
             font-size: 15px;
         }
     }
+}
+.compositionMenu {
+    margin: 0;
+    padding: 0;
 }
 
