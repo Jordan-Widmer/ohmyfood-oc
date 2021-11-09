@@ -3,8 +3,8 @@ header h1 {
 }
 
 .dispositionPremierTitre {
-  margin-top: 15px;
   margin-bottom: 10px;
+  margin-top: 15px;
 }
 
 .caseMenuPrincipale {
@@ -17,20 +17,20 @@ header h1 {
 }
 
 .couleurGrisArrierePlan .localisation {
+  background-color: #EAEAEA;
   -webkit-box-shadow: 0px 2px 3px 0px #868887 inset;
           box-shadow: 0px 2px 3px 0px #868887 inset;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
   height: 60px;
-  background-color: #EAEAEA;
+  width: 100%;
 }
 
 .couleurGrisArrierePlan .localisation .textLocation {
-  font-size: 20px;
-  border: unset;
   background-color: #EAEAEA;
+  border: unset;
+  font-size: 20px;
   width: 150px;
 }
 
@@ -40,34 +40,34 @@ header h1 {
 
 .couleurGrisArrierePlan .sousTitrePrincipale {
   font-size: 20px;
-  opacity: 0.6;
   margin-bottom: 40px;
+  opacity: 0.6;
 }
 
 .couleurGrisArrierePlan .lienExplorationRestaurants:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#9356dc), color-stop(#b35cdc), color-stop(#cf64dc), color-stop(#e86edb), color-stop(120%, #ff79da));
+  background: linear-gradient(#9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da 120%);
   -webkit-box-shadow: 0px 3px 12px 0 rgba(0, 0, 0, 0.4);
           box-shadow: 0px 3px 12px 0 rgba(0, 0, 0, 0.4);
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  background: -webkit-gradient(linear, left top, left bottom, from(#9356dc), color-stop(#b35cdc), color-stop(#cf64dc), color-stop(#e86edb), color-stop(120%, #ff79da));
-  background: linear-gradient(#9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da 120%);
 }
 
 .couleurGrisArrierePlan .lienExplorationRestaurants {
-  display: block;
-  color: white;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
   background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), color-stop(120%, #9356DC));
   background: linear-gradient(#FF79DA, #9356DC 120%);
-  padding: 15px;
-  padding-left: 23px;
-  padding-right: 23px;
-  margin: auto;
   border-radius: 30px 30px 30px 30px;
   -webkit-box-shadow: 0px 1px 6px 0 rgba(0, 0, 0, 0.4);
           box-shadow: 0px 1px 6px 0 rgba(0, 0, 0, 0.4);
+  color: white;
+  display: block;
+  margin: auto;
+  padding: 15px;
+  padding-left: 23px;
+  padding-right: 23px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
 }
 
 .titredeSection {
@@ -89,39 +89,39 @@ header h1 {
 }
 
 .caseFonctionnement {
-  width: 90%;
+  background-color: #F6F6F6;
   border-radius: 25px;
   -webkit-box-shadow: 0px 1px 6px 0 rgba(0, 0, 0, 0.4);
           box-shadow: 0px 1px 6px 0 rgba(0, 0, 0, 0.4);
-  height: 80px;
-  background-color: #F6F6F6;
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 80px;
   margin: auto;
   margin-bottom: 25px;
+  position: relative;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  cursor: pointer;
-  position: relative;
+  width: 90%;
 }
 
 .caseFonctionnement .textCaseFonctionnement {
-  width: 75%;
   font-size: 16px;
+  width: 75%;
 }
 
 .caseFonctionnement .numeroCaseFonctionnement {
+  background-color: #9356DC;
+  border-radius: 50%;
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: 25px;
-  width: 25px;
-  border-radius: 50%;
-  background-color: #9356DC;
-  color: white;
-  position: absolute;
   left: -15px;
+  position: absolute;
+  width: 25px;
 }
 
 .dispositionSection {
@@ -143,13 +143,13 @@ header h1 {
 }
 
 .dispositionSection .margeCaseSectionTrois .carteRestaurant {
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  margin-bottom: 30px;
   background-color: white;
   border-radius: 20px;
   -webkit-box-shadow: 0px 1px 8px 0 rgba(0, 0, 0, 0.4);
           box-shadow: 0px 1px 8px 0 rgba(0, 0, 0, 0.4);
+  margin-bottom: 30px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .dispositionSection .margeCaseSectionTrois .carteRestaurant .relative {
@@ -158,27 +158,27 @@ header h1 {
 
 .ticket {
   background-color: #99E2D0;
+  border-radius: 0.2rem;
   color: #095228;
   padding: 0.4rem 1rem;
-  border-radius: 0.2rem;
   position: absolute;
-  top: 1rem;
   right: 0.8rem;
+  top: 1rem;
 }
 
 .dispositionImages {
-  width: 100%;
+  border-radius: 20px 20px 0 0;
   height: 190px;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 20px 20px 0 0;
+  width: 100%;
 }
 
 .composition {
-  height: 73px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 73px;
 }
 
 .composition .dispositionText {
@@ -207,32 +207,32 @@ input, select, textarea {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  text-align: center;
   position: relative;
+  text-align: center;
 }
 
 .flexDisplayRestaurants .positionFleche {
-  position: absolute;
-  left: 15px;
   font-size: 30px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  left: 15px;
+  position: absolute;
 }
 
 .imageRestaurantPages {
   height: 338.66px;
-  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  width: 100%;
 }
 
 .menu {
-  padding-top: 20px;
-  padding-right: 15px;
-  padding-left: 15px;
   border-radius: 40px 40px 0 0;
   margin-top: -65px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
   position: relative;
 }
 
@@ -247,28 +247,28 @@ input, select, textarea {
 }
 
 .menu .hautMenu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 30px;
 }
 
 .menu .hautMenu .TitreMenu {
-  font-size: 27px;
   font-family: 'shrikhand';
+  font-size: 27px;
 }
 
 .menu .hautMenu .coeurMenu {
-  font-size: 25px;
-  padding: unset;
-  margin: unset;
   background: #F6F6F6;
+  font-size: 25px;
+  margin: unset;
+  padding: unset;
 }
 
 .menu .hautMenu .coeurMenu:hover {
@@ -282,21 +282,21 @@ input, select, textarea {
 }
 
 .menuSection {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: unset;
   -webkit-box-direction: unset;
       -ms-flex-direction: unset;
           flex-direction: unset;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .menuSection .menuBlock {
@@ -307,34 +307,34 @@ input, select, textarea {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 350px;
   margin: 2%;
+  width: 350px;
 }
 
 .menuSection .menuBlock .typePlat {
-  margin-left: 10px;
+  border-bottom: solid 3px #99E2D0;
   font-size: 15px;
+  margin-left: 10px;
   opacity: 0.7;
   padding-bottom: 6px;
   width: 50px;
-  border-bottom: solid 3px #99E2D0;
 }
 
 .article1 {
+  background-color: white;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.4);
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  background-color: white;
-  cursor: pointer;
-  border-radius: 15px;
-  position: relative;
-  overflow: hidden;
   margin-bottom: 5%;
-  -webkit-box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.4);
-          box-shadow: 0px 1px 3px 0 rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  position: relative;
 }
 
 .article1:hover > .menudesc {
@@ -343,9 +343,9 @@ input, select, textarea {
 }
 
 .article1:hover > .confirmation {
+  right: -100px;
   -webkit-transform: translateX(0);
           transform: translateX(0);
-  right: -100px;
 }
 
 .article1:hover > .confirmation > div.ajout i {
@@ -353,33 +353,33 @@ input, select, textarea {
 }
 
 .article1 .menudesc h3 {
-  margin: 0px;
-  margin-bottom: 3px;
-  padding: 0;
   font-size: 18px;
+  margin-bottom: 3px;
+  margin: 0px;
+  padding: 0;
 }
 
 .article1 .menudesc p {
-  margin: 0;
-  padding: 0;
-  font-size: 14px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-size: 14px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 
 .article1 .menudesc {
+  -webkit-animation: texter 0.5s;
+          animation: texter 0.5s;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  white-space: nowrap;
-  overflow: hidden;
   margin: 3%;
-  -webkit-animation: texter 0.5s;
-          animation: texter 0.5s;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .article1 .menudesc h3, .article1 .menudesc h4 {
@@ -388,44 +388,44 @@ input, select, textarea {
 }
 
 .article1 .confirmation {
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: 100%;
   position: absolute;
-  width: 60%;
-  background-color: white;
   right: -124px;
   -webkit-transform: translateX(52px);
           transform: translateX(52px);
   -webkit-transition: 1s;
   transition: 1s;
+  width: 60%;
 }
 
 .article1 .confirmation .prix {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  padding-right: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding-bottom: 3%;
+  padding-right: 5%;
 }
 
 .article1 .confirmation div.ajout {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #99e2d0;
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  height: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 100%;
   z-index: -1;
 }
 
@@ -477,35 +477,35 @@ input, select, textarea {
 }
 
 .margeTypeCommande {
-  padding-top: 50px;
   padding-bottom: 100px;
+  padding-top: 50px;
 }
 
 .margeTypeCommande .lienCommander:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#9356dc), color-stop(#b35cdc), color-stop(#cf64dc), color-stop(#e86edb), color-stop(120%, #ff79da));
+  background: linear-gradient(#9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da 120%);
   -webkit-box-shadow: 0px 3px 12px 0 rgba(0, 0, 0, 0.4);
           box-shadow: 0px 3px 12px 0 rgba(0, 0, 0, 0.4);
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  background: -webkit-gradient(linear, left top, left bottom, from(#9356dc), color-stop(#b35cdc), color-stop(#cf64dc), color-stop(#e86edb), color-stop(120%, #ff79da));
-  background: linear-gradient(#9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da 120%);
 }
 
 .margeTypeCommande .lienCommander {
-  display: block;
-  color: white;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
   background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), color-stop(120%, #9356DC));
   background: linear-gradient(#FF79DA, #9356DC 120%);
-  padding: 15px;
-  padding-left: 45px;
-  padding-right: 45px;
-  margin: auto;
   border-radius: 30px 30px 30px 30px;
   -webkit-box-shadow: 0px 1px 6px 0 rgba(0, 0, 0, 0.4);
           box-shadow: 0px 1px 6px 0 rgba(0, 0, 0, 0.4);
+  color: white;
+  display: block;
   font-weight: bold;
+  margin: auto;
+  padding: 15px;
+  padding-left: 45px;
+  padding-right: 45px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
 }
 
 footer h1 {
@@ -517,15 +517,14 @@ footer h1 {
 }
 
 .dispositionFooter {
-  padding-top: 20px;
   padding-bottom: 30px;
   padding-left: 30px;
+  padding-top: 20px;
 }
 
 .dispositionFooter .ohmyfoodwhite {
-  margin: unset;
   font-size: 20px;
-  padding-bottom: 15px;
+  margin: unset;
 }
 
 .dispositionFooter .dispositionTextFooter {
@@ -554,8 +553,8 @@ body {
 }
 
 a {
-  text-decoration: none;
   color: unset;
+  text-decoration: none;
 }
 
 .couleurViolet {
@@ -575,12 +574,12 @@ a {
 }
 
 .contenueCentrer {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
 }
 
@@ -637,12 +636,12 @@ a {
 .transformation {
   -webkit-transform: scale(1);
           transform: scale(1);
+  -webkit-transition-duration: 350ms;
+          transition-duration: 350ms;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
-  -webkit-transition-duration: 350ms;
-          transition-duration: 350ms;
 }
 
 .transformation:hover {
@@ -653,12 +652,12 @@ a {
 .transformationCarteRestaurants {
   -webkit-transform: scale(1);
           transform: scale(1);
+  -webkit-transition-duration: 350ms;
+          transition-duration: 350ms;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
-  -webkit-transition-duration: 350ms;
-          transition-duration: 350ms;
 }
 
 .transformationCarteRestaurants:hover {
@@ -667,57 +666,57 @@ a {
 }
 
 .arrierePlan {
-  background-color: white;
-  z-index: 1;
   -webkit-animation: hide 0.5s 2s linear forwards;
           animation: hide 0.5s 2s linear forwards;
-  top: 0;
+  background-color: white;
   bottom: 0;
   left: 0;
-  right: 0;
   position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
 }
 
 .arrierePlan .loader {
-  background: white;
-  width: 100%;
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
 }
 
 .arrierePlan .loader div {
-  background: #fff;
-  width: 16px;
-  height: 32px;
-  margin-left: 10px;
   -webkit-animation: loader 1.2s infinite;
           animation: loader 1.2s infinite;
+  background: #fff;
+  height: 32px;
+  margin-left: 10px;
+  width: 16px;
 }
 
 .arrierePlan .loader div:nth-child(1) {
-  background: #9356DC;
   -webkit-animation-delay: -0.40s;
           animation-delay: -0.40s;
+  background: #9356DC;
 }
 
 .arrierePlan .loader div:nth-child(2) {
-  background: #FF79DA;
   -webkit-animation-delay: -0.20s;
           animation-delay: -0.20s;
+  background: #FF79DA;
 }
 
 .arrierePlan .loader div:nth-child(3) {
-  background: #99E2D0;
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
+  background: #99E2D0;
 }
 
 @-webkit-keyframes loader {
@@ -734,32 +733,32 @@ a {
 
 @-webkit-keyframes hide {
   0% {
-    opacity: 1;
     display: block;
+    opacity: 1;
   }
   99% {
-    opacity: 0;
     display: block;
+    opacity: 0;
   }
   100% {
-    opacity: 0;
     display: none;
+    opacity: 0;
     visibility: hidden;
   }
 }
 
 @keyframes hide {
   0% {
-    opacity: 1;
     display: block;
+    opacity: 1;
   }
   99% {
-    opacity: 0;
     display: block;
+    opacity: 0;
   }
   100% {
-    opacity: 0;
     display: none;
+    opacity: 0;
     visibility: hidden;
   }
 }
@@ -806,40 +805,40 @@ a {
 }
 
 .ticketOk:hover {
-  opacity: 1;
   -webkit-transform: translate(-50px);
           transform: translate(-50px);
+  opacity: 1;
 }
 
 .ticketOk {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   background-color: #99E2D0;
-  width: 45px;
-  height: 45px;
-  border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  position: absolute;
+  border-top-right-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 45px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0;
   padding: 10px;
+  position: absolute;
   right: -50px;
   top: 0;
-  opacity: 0;
   -webkit-transition: -webkit-transform 330ms ease-in-out;
   transition: -webkit-transform 330ms ease-in-out;
   transition: transform 330ms ease-in-out;
   transition: transform 330ms ease-in-out, -webkit-transform 330ms ease-in-out;
+  width: 45px;
 }
 
 .ticketOk .fa-check-circle {
-  font-size: 35px;
   color: #fff;
+  font-size: 35px;
   -webkit-transition: -webkit-transform 500ms ease-in-out;
   transition: -webkit-transform 500ms ease-in-out;
   transition: transform 500ms ease-in-out;
@@ -860,6 +859,9 @@ a {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
   }
   .ohmyfoodwhite {
     padding-bottom: unset;
@@ -933,12 +935,12 @@ a {
     width: 100%;
   }
   .menuSection {
-    -ms-flex-wrap: unset;
-        flex-wrap: unset;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -ms-flex-wrap: unset;
+        flex-wrap: unset;
   }
 }
 /*# sourceMappingURL=main.css.map */
