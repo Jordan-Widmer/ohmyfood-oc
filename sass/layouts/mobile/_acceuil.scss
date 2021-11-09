@@ -8,15 +8,15 @@
 .couleurGrisArrierePlan {
     background-color: #F6F6F6;
     .localisation {
+        background-color: #EAEAEA;
         box-shadow: 0px 2px 3px 0px #868887 inset;
         display: flex;
-        width: 100%;
         height: 60px;
-        background-color: #EAEAEA;
+        width: 100%;
         .textLocation {
-            font-size: 20px;
-            border: unset;
             background-color: #EAEAEA;
+            border: unset;
+            font-size: 20px;
             width: 150px;
         }
     }
@@ -25,18 +25,28 @@
     }
     .sousTitrePrincipale {
         font-size: 20px;
-        opacity: 0.6;
         margin-bottom: 40px;
+        opacity: 0.6;
+    }
+    
+// ************************ BOUTON D'EXPLORATION ************************
+    .lienExplorationRestaurants:hover {
+        background: linear-gradient( #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da 120%);
+        box-shadow: 0px 3px 12px 0 rgba(0, 0, 0, 0.4);
+        transition: 0.5s;
+
     }
     .lienExplorationRestaurants {
-        display: block;
-        color: white;
-        width: max-content;
         background: linear-gradient( #FF79DA, #9356DC 120%); 
-        padding: 15px;
-        margin: auto;
         border-radius: 30px 30px 30px 30px;
         box-shadow: 0px 1px 6px 0 rgba(0,0,0,0.4);
+        color: white;
+        display: block;
+        margin: auto;
+        padding-left: 23px;
+        padding-right: 23px;
+        padding: 15px;
+        width: max-content;
     } 
 }
 
@@ -55,75 +65,81 @@
     box-shadow: 0px 1px 12px 0 rgba(0,0,0,0.4);
 }
 .caseFonctionnement {
-    width: 90%;
+    background-color: #F6F6F6;
     border-radius: 25px;
     box-shadow: 0px 1px 6px 0 rgba(0,0,0,0.4);
-    height: 80px;
-    background-color: #F6F6F6;
-    display: flex;
-    margin: auto;
-    margin-bottom: 25px;
-    transition: 0.3s;
     cursor: pointer;
+    display: flex;
+    height: 80px;
+    margin-bottom: 25px;
+    margin: auto;
+    position: relative;
+    transition: 0.3s;
+    width: 90%;
     .textCaseFonctionnement {
-        width: 70%;
         font-size: 16px;
+        width: 75%;
     }
     .numeroCaseFonctionnement {
+        background-color: #9356DC;
+        border-radius: 50%;
+        color: white;
         display: flex;
         height: 25px;
-        width: 25px;
-        border-radius: 50%;
-        background-color: #9356DC;
-        color: white;
+        left: -15px;
         position: absolute;
-        left: 7px;
+        width: 25px;
     }
 }
 
 // ************************ TROISIÈME SECTION ************************
+// ************************ SECTION DES RESTAURANTS DISPONIBLE ************************
 .dispositionSection {
     margin-top: 70px;
     padding: 0 0px 30px 0px;
     .dispositionTitreSectionTrois {
         padding-top: 45px;
     }
-}
-.margeCaseSectionTrois {
-    margin: 20px;
-    .carteRestaurant:hover {
-        box-shadow: 0 1px 12px 0 rgba(0,0,0,0.4);
-    }
-    .carteRestaurant {
-        transition: 0.3s;
-        margin-bottom: 30px;
-        width: 100%;
-        background-color: white;
-        border-radius: 20px;
-        box-shadow: 0px 1px 8px 0 rgba(0,0,0,0.4);
-        .relative {
-            position: relative;
+    .margeCaseSectionTrois {
+        margin: 20px;
+        .carteRestaurant:hover {
+            box-shadow: 0 1px 12px 0 rgba(0,0,0,0.4);
+        }
+// ************************ CARTE RESTAURANT DANS LA PAGE D'ACCEUIL DU SITE ************************
+        .carteRestaurant {
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0px 1px 8px 0 rgba(0,0,0,0.4);
+            margin-bottom: 30px;
+            transition: 0.3s;
+            .relative {
+                position: relative;
+            }
         }
     }
 }
+
+// ************************ COMPOSITION DE LA PARTIE SUPÉRIEURE UNE CARTE RESTAURANTS PRÉSENTE DANS L'ACCEUIL ************************
 .ticket {
     background-color: #99E2D0;
+    border-radius: 0.2rem;
     color: #095228;
     padding: 0.4rem 1rem;
-    border-radius: 0.2rem;
     position: absolute;
-    top: 1rem;
     right: 0.8rem;
+    top: 1rem;
 }
 .dispositionImages {
-    width: 100%;
+    border-radius: 20px 20px 0 0;
     height: 190px;
     object-fit: cover;
-    border-radius: 20px 20px 0 0;
+    width: 100%;
 }
+
+// ************************ COMPOSITION DE LA PARTIE INFÉRIEURE UNE CARTE RESTAURANTS PRÉSENTE DANS L'ACCEUIL ************************
 .composition {
-    height: 73px;
     display: flex;
+    height: 73px;
     .dispositionText {
         margin: 5px 10px 0px 15px;
         text-align: unset;

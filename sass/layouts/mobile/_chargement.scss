@@ -1,0 +1,58 @@
+// ************************ ECRAN DE CHARGEMENT DE LA PAGE D'ACCEUIL ************************
+.arrierePlan {
+    animation: hide 0.5s 2s linear forwards;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    .loader{
+        align-items: center;
+        background: white;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        width: 100%;
+    }
+    .loader div{
+        animation: loader 1.2s infinite;
+        background: #fff;
+        height: 32px;
+        margin-left: 10px;
+        width: 16px;
+    }
+    .loader div:nth-child(1){
+        animation-delay: -0.40s;
+        background: #9356DC;
+    }
+    .loader div:nth-child(2){
+        animation-delay: -0.20s;
+        background: #FF79DA;
+    }
+    .loader div:nth-child(3){
+        animation-delay: 0s;
+        background: #99E2D0;
+    }
+}
+@keyframes loader{
+    50%{
+        height: 70px;
+    }
+    }
+    @keyframes hide{
+    0%{
+        display: block;
+        opacity: 1;
+    }
+    99%{
+        display: block;
+        opacity:0;
+    }
+    100%{
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+}

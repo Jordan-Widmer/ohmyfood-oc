@@ -1,15 +1,15 @@
 .transformation {
     transform: scale(1);
-    transition-property: transform;
     transition-duration: 350ms;
+    transition-property: transform;
 }
 .transformation:hover {
     transform: scale(1.10);
 }
 .transformationCarteRestaurants {
     transform: scale(1);
-    transition-property: transform;
     transition-duration: 350ms;
+    transition-property: transform;
 }
 .transformationCarteRestaurants:hover {
     transform: scale(1.01);

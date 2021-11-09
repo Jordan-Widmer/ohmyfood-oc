@@ -1,17 +1,29 @@
-@media only screen and (min-width : 1080px) {
-    .fonct {
+@media only screen and (min-width : 1230px) {
+    .dispositionFooter {
         display: flex;
-        flex-direction: column;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: unset;
         justify-content: center;
-    }  
-    .caseFonctionnement {
-        width: 35%;
+        justify-content: space-evenly;
     }
-    .caseFonctionnement .numeroCaseFonctionnement {
-        left: 593px;
+    .ohmyfoodwhite {
+        padding-bottom: unset;
+        font-size: 30px;
     }
-    .titredeSection {
-        text-align: center;
+    .dispositionTextFooter {
+        display: flex;
+        align-items: center;
+    }
+    .textfooter {
+        padding-left: 70px;
+        font-size: 20px;
+    }
+    .fa-hands-helping {
+        padding-right: 5px;
+    }
+    .fa-utensils {
+        padding-right: 5px;
     }
     .margeCaseSectionTrois {
         display: flex;
@@ -19,5 +31,37 @@
     }
     .carteRestaurant {
         margin: 15px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width : 1920px) and (min-width : 631px) {
+    .caseFonctionnement {
+        width: 45%;
+    }
+}
+@media only screen and (max-width : 1229px) {
+    .margeCaseSectionTrois {
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 40px;
+    }
+    .carteRestaurant {
+        width: 45%;
+    }
+}
+@media only screen and (min-width : 631px) {
+        .titredeSection {
+        text-align: center;
+    }
+}
+@media only screen and (max-width : 630px) {
+    .carteRestaurant {
+        width: 100%;
+    }
+    .menuSection {
+        flex-direction: column;
+        flex-wrap: unset;
     }
 }

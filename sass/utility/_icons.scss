@@ -6,17 +6,20 @@
     opacity: 0.5;
 }
 .fa-heart {
+            justify-content: end;
+        -ms-flex-pack: end;
+    -webkit-box-pack: end;
+    cursor: pointer;
     font-size: 28px;
     padding-top: 20px;
-    justify-content: end;
-    cursor: pointer;
+    transform: scale(1);
 }
 .fa-heart:hover {
-    transition: 0.2s;
-    background:linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-    -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
     font-weight: bold;
+    transform: scale(1.10);
 }
 .fa-utensils {
     padding-right: 6px;
