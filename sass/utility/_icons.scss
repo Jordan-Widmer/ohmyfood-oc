@@ -5,6 +5,16 @@
     font-size: 24px;
     opacity: 0.5;
 }
+.coeurRemplie {
+    opacity: 0;
+    transition: 0.6s;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.coeurRemplie:hover {
+    padding-top: 18.8px;
+    opacity: 1;
+}
 .fa-heart {
     font-size: 28px;
     padding-top: 20px;
@@ -15,6 +25,7 @@
     transform: scale(1);
 }
 .fa-heart:hover {
+    padding-top: 19px;
     transform: scale(1.10);
     background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
     -webkit-text-fill-color: transparent;

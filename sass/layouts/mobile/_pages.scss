@@ -43,13 +43,12 @@
             font-size: 27px;
         }
         .coeurMenu {
-            background: #F6F6F6;
             font-size: 25px;
             margin: unset;
             padding: unset;
         }
         .coeurMenu:hover {
-            transition: 0.2s;
+            transition: 0.6s;
             background:linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
             -webkit-text-fill-color: transparent;
             -webkit-background-clip: text;
@@ -98,17 +97,22 @@
     &:hover > .confirmation > div.ajout i {
         font-size: 30px;
     }
+    &:hover > .menudesc > h3 {
+        width: 60%;
+    }
+    &:hover > .menudesc > h4 {
+        width: 60%;
+    }
     .menudesc h3 {
-        font-size: 18px;
+        font-size: 19px;
         margin-bottom: 3px;
         margin: 0px;
         padding: 0;
     }
-    .menudesc p {
-        display: flex;
-        font-size: 14px;
-        justify-content: space-between;
-        margin: 0;
+    .menudesc h4 {
+        font-size: 15.3px;
+        margin-bottom: 3px;
+        margin: 0px;
         padding: 0;
     }
     .menudesc {
@@ -117,7 +121,11 @@
         margin: 3%;
         overflow: hidden;
         white-space: nowrap;
-        h3, h4 {
+        h3 {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        h4 {
             overflow: hidden;
             text-overflow: ellipsis;
         }
@@ -134,7 +142,7 @@
         .prix {
             align-items: flex-end;
             display: flex;
-            padding-bottom: 3%;
+            padding-bottom: 4.3%;
             padding-right: 5%;
         }
         div.ajout {
@@ -185,4 +193,5 @@
         width: max-content;
     }
 }
+
 
