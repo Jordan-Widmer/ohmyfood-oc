@@ -349,6 +349,8 @@ input, select, textarea {
 
 .article1:hover > .confirmation > div.ajout i {
   font-size: 30px;
+  -webkit-transform: rotate(1turn);
+          transform: rotate(1turn);
 }
 
 .article1:hover > .menudesc > h3 {
