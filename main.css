@@ -70,6 +70,10 @@ header h1 {
   width: max-content;
 }
 
+::-webkit-input-placeholder {
+  color: #393939;
+}
+
 .titredeSection {
   font-size: 25px;
   margin-bottom: 25px;
@@ -316,7 +320,7 @@ input, select, textarea {
   margin-left: 10px;
   opacity: 0.7;
   padding-bottom: 6px;
-  width: 50px;
+  width: 36.5px;
 }
 
 .article1 {
@@ -394,6 +398,8 @@ input, select, textarea {
 .article1 .menudesc h4 {
   overflow: hidden;
   text-overflow: ellipsis;
+  font-weight: normal;
+  color: #414141;
 }
 
 .article1 .confirmation {
@@ -965,6 +971,27 @@ a {
             flex-direction: column;
     -ms-flex-wrap: unset;
         flex-wrap: unset;
+  }
+}
+
+@media only screen and (max-width: 359px) {
+  .menu .hautMenu .TitreMenu {
+    font-size: 24px;
+  }
+  .menuSection .menuBlock {
+    width: 310px;
+  }
+  .article1 .menudesc h3 {
+    font-size: 17px;
+  }
+  .article1 .menudesc h4 {
+    font-size: 13.7px;
+  }
+  .article1 .confirmation {
+    right: -100px;
+  }
+  .article1:hover > .confirmation {
+    right: -85px;
   }
 }
 /*# sourceMappingURL=main.css.map */

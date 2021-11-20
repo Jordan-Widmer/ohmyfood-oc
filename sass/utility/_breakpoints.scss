@@ -66,3 +66,23 @@
         flex-wrap: unset;
     }
 }
+@media only screen and (max-width : 359px) {   
+    .menu .hautMenu .TitreMenu {
+        font-size: 24px;
+    }
+    .menuSection .menuBlock {
+        width: 310px;
+    }
+    .article1 .menudesc h3 {
+        font-size: 17px;
+    }
+    .article1 .menudesc h4 {
+        font-size: 13.7px;
+    }
+    .article1 .confirmation {
+        right: -100px;
+    }
+    .article1:hover > .confirmation {
+        right: -85px;
+    }
+}
