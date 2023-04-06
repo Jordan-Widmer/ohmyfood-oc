@@ -1,22 +1,22 @@
 # OhMyFood
-Troisième projet de la formation "Développeur web" chez OpenClassroom. L'objectif de ce projet est d'intégrer des effets CSS avancés, de mettre en place une structure de navigation via le pré-processeur Sass et d'assurer la cohérence graphique à tout niveau en responsive. Le site Ohmyfood! est une entreprise de commande de repas en ligne. Le concept permet aux utilisateurs de composer leur menu en avance parmi 4 restaurants parisiens et d'éviter une perte de temps à consulter la carte !
+This is the third project of the "Web Developer" training at OpenClassroom. The objective is to integrate advanced CSS effects, set up a navigation structure using the Sass preprocessor, and ensure visual coherence at all levels of responsiveness. Ohmyfood! is an online food ordering service that allows users to pre-compose their meals from 4 Parisian restaurants and save time by avoiding the hassle of menu consultation.
 
-## Livrables attendus
-Contenu des pages :
-Effectuer la réalisation de la page d'accueil et des 4 pages de détails des restaurants parisiens.
-### Effets graphiques et animations :
-#### Boutons :
-Au survol, la couleur de fond des boutons principaux devra légèrement s’éclaircir. L’ombre portée devra également être plus visible.
-À terme, les visiteurs pourront sauvegarder leurs menus préférés. Pour ça, un bouton "J’aime" en forme de cœur est présent sur la maquette. Au clic, il devra se remplir progressivement. Pour cette première version, l’effet peut être apparaître au survol sur desktop au lieu du clic.
-#### Page d’accueil :
-Quand l’application aura plus de menus, un “loading spinner” sera nécessaire. Sur cette maquette, nous souhaitons en avoir un aperçu. Il devra apparaître pendant 1 à 3 secondes quand on arrive sur la page d'accueil, couvrir l'intégralité de l'écran, et utiliser les animations CSS (pas de librairie). Le design de ce loader n’est pas défini, toute proposition est donc la bienvenue tant qu’elle est cohérente avec la charte graphique du site.
-#### Pages de menu :
-À l’arrivée sur la page, les plats devront apparaître progressivement avec un léger décalage dans le temps. Ils pourront soit apparaître un par un, soit par groupe “Entrée”, “Plat” et “Dessert”. Un exemple de l’effet attendu est fourni.
-Le visiteur peut ajouter les plats qu'il souhaite à sa commande en cliquant dessus. Cela fait apparaître une petite coche à droite du plat. Cette coche devra coulisser de la droite vers la gauche. Pour cette première version, l’effet peut apparaître au survol sur desktop au lieu du clic. Si l’intitulé du plat est trop long, il devra être rogné avec des points de suspension.
-## Les contraintes techniques
-Le développement devra se faire en CSS, sans JavaScript.
-Aucun framework ne devra être utilisé, en revanche l’utilisation de SASS serait un plus.
-Aucun code CSS ne devra être appliqué via un attribut style dans une balise HTML.
-Le code devra utiliser les balises sémantiques et ne doit contenir aucune erreur ni alerte au validateur W3C HTML et CSS.
-L’ensemble du site devra être responsive sur mobile, tablette et desktop.
-Le site doit être parfaitement compatible avec les dernières versions desktop de Chrome et Firefox.
+## Deliverables
+Content of pages:
+Create the homepage and 4 Parisian restaurant detail pages.
+### Graphical effects and animations:
+#### Buttons:
+On hover, the background color of the main buttons should slightly lighten. The shadow should also be more visible.
+Eventually, visitors will be able to save their favorite menus. For this, a heart-shaped "like" button is present in the model. When clicked, it should gradually fill up. For this first version, the effect can appear on hover on desktop instead of click.
+#### Home page:
+When the application has more menus, a loading spinner will be necessary. On this model, we want to have a preview of it. It should appear for 1 to 3 seconds when arriving on the homepage, cover the entire screen, and use CSS animations (no library). The design of this loader is not defined, any proposal is welcome as long as it is consistent with the site's graphic charter.
+#### Menu pages:
+Upon arrival on the page, the dishes should appear progressively with a slight time lag. They can either appear one by one or by group "Starter," "Main course," and "Dessert." An example of the expected effect is provided.
+The visitor can add the dishes they want to their order by clicking on them. This will make a small checkmark appear to the right of the dish. This checkmark should slide from right to left. For this first version, the effect can appear on hover on desktop instead of click. If the title of the dish is too long, it should be truncated with ellipsis.
+## Technical constraints
+The development must be done in CSS, without JavaScript.
+No framework should be used, but the use of SASS is a plus.
+No CSS code should be applied via a style attribute in an HTML tag.
+The code should use semantic tags and must not contain any errors or warnings in the W3C HTML and CSS validator.
+The entire site must be responsive on mobile, tablet, and desktop.
+The site must be perfectly compatible with the latest desktop versions of Chrome and Firefox.
